@@ -67,13 +67,9 @@ see `mtcnn_detector.py` for the details about the parameters. this function use 
 
 ![big4](http://7xsc78.com1.z0.glb.clouddn.com/face_mtcnn.png)
 
-
-
 ## License
 
 MIT LICENSE
-
-
 
 ## Reference
 
@@ -111,7 +107,7 @@ python lfw_eval.py --model model/sphere20a_20171020.pth
 
 ![equation](https://latex.codecogs.com/gif.latex?myphi(x)=1-\frac{x^2}{2!}+\frac{x^4}{4!}-\frac{x^6}{6!}+\frac{x^8}{8!}-\frac{x^9}{9!})
 
-![phi](images/phi.png)
+![phi](img/phi.png)
 
 # References
 [sphereface](https://github.com/wy1iu/sphereface)
