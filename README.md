@@ -120,6 +120,6 @@ python lfw_eval.py --model model/sphere20a_20171020.pth
 
 [Sphereface_pytorch for face recognition](https://github.com/clcarwin/sphereface_pytorch)
 
-[paper of MTCNN](Reference paper/spl.pdf)
+[paper of MTCNN](ReferencePaper/mtcnn.pdf)
 
-[paper of Sphereface](Reference paper/1704.08063.pdf)
+[paper of Sphereface](ReferencePaper/shpereface.pdf)
