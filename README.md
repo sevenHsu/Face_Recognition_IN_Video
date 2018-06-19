@@ -119,3 +119,7 @@ python lfw_eval.py --model model/sphere20a_20171020.pth
 [Mtcnn for face detection](https://github.com/pangyupo/mxnet_mtcnn_face_detection)
 
 [Sphereface_pytorch for face recognition](https://github.com/clcarwin/sphereface_pytorch)
+
+[paper of MTCNN](Reference paper/spl.pdf)
+
+[paper of Sphereface](Reference paper/1704.08063.pdf)
