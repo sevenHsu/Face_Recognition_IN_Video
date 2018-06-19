@@ -12,6 +12,9 @@ This is a desktop programe for finding and marking the faces required in videos.
 - Mxnet
   
   I use Mtcnn for detecting face from videos which need Mxnet.
+- PyQT5
+
+  Using this third package pyQT5 just for UI realization of the programe.
 ## Using
 
 run:
