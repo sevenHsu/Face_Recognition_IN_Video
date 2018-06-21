@@ -44,10 +44,6 @@ run:
 
 ## Test
 
-run:
-
- ``python main.py`` 
-
 you can change `ctx` to `mx.gpu(0)` for faster detection
 
 
