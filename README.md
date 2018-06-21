@@ -102,10 +102,7 @@ The code can be trained on CASIA-Webface and the best accuracy on LFW is **99.22
 2. Other intermediate results:
     - LFW features: [Google Drive](https://drive.google.com/open?id=0B_geeR2lTMegenU0cGJYZmlRUlU) | [Baidu](http://pan.baidu.com/s/1o8QIMUY)
     - Training log: [Google Drive](https://drive.google.com/open?id=0B_geeR2lTMegcWkxdVV4X1FOaFU) | [Baidu](http://pan.baidu.com/s/1i5QmXrJ)
-
-
-# References
-[sphereface](https://github.com/wy1iu/sphereface)
+    
 ## Reference
 
 [Mtcnn for face detection](https://github.com/pangyupo/mxnet_mtcnn_face_detection)
