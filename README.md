@@ -83,19 +83,26 @@ A PyTorch Implementation of SphereFace.
 The code can be trained on CASIA-Webface and the best accuracy on LFW is **99.22%**.
 
 [SphereFace: Deep Hypersphere Embedding for Face Recognition](https://arxiv.org/abs/1704.08063)
-`
 
-# Pre-trained models
-| Model name      | LFW accuracy | Training dataset |
-|-----------------|--------------|------------------|
-| [20171020](model/sphere20a_20171020.7z) | 0.9922 | CASIA-WebFace |
+### Models
+1. Visualizations of network architecture (tools from [ethereon](http://ethereon.github.io/netscope/quickstart.html)):
+	- SphereFace-20: [link](http://ethereon.github.io/netscope/#/gist/20f6ddf70a35dec5019a539a502bccc5)
+2. Model file
+	- SphereFace-20: [Google Drive](https://drive.google.com/open?id=0B_geeR2lTMegb2F6dmlmOXhWaVk) | [Baidu](http://pan.baidu.com/s/1qY5FTF2)
+	- Third-party SphereFace-4 & SphereFace-6: [here](https://github.com/wy1iu/sphereface/issues/81) by [zuoqing1988](https://github.com/zuoqing1988)
 
-# φ
-![equation](https://latex.codecogs.com/gif.latex?phi%28x%29%3D%5Cleft%28-1%5Cright%29%5Ek%5Ccdot%20%5Ccos%20%5Cleft%28x%5Cright%29-2%5Ccdot%20k)
 
-![equation](https://latex.codecogs.com/gif.latex?myphi(x)=1-\frac{x^2}{2!}+\frac{x^4}{4!}-\frac{x^6}{6!}+\frac{x^8}{8!}-\frac{x^9}{9!})
+### Results
+1. Following the instruction, we go through the entire pipeline for 5 times. The accuracies on LFW are shown below. Generally, we report the average but we release the [model-3](#models) here.
 
-![phi](img/phi.png)
+	Experiment |#1|#2|#3 (released)|#4|#5
+	:---:|:---:|:---:|:---:|:---:|:---:
+	ACC|99.24%|99.20%|**99.30%**|99.27%|99.13%
+
+2. Other intermediate results:
+    - LFW features: [Google Drive](https://drive.google.com/open?id=0B_geeR2lTMegenU0cGJYZmlRUlU) | [Baidu](http://pan.baidu.com/s/1o8QIMUY)
+    - Training log: [Google Drive](https://drive.google.com/open?id=0B_geeR2lTMegcWkxdVV4X1FOaFU) | [Baidu](http://pan.baidu.com/s/1i5QmXrJ)
+
 
 # References
 [sphereface](https://github.com/wy1iu/sphereface)
