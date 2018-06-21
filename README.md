@@ -27,8 +27,8 @@ This is a desktop programe for finding and marking the faces required in videos.
 
 run:
 
-  python main.py
-  
+  ``python main.py``
+
 ## README_MTCNN_face_detection_and_alignment
 
 # MTCNN_face_detection_and_alignment
@@ -50,11 +50,9 @@ run:
 
 you can change `ctx` to `mx.gpu(0)` for faster detection
 
---- update 20161028 ---
 
 by setting ``num_worker=4``  ``accurate_landmark=False`` we can reduce the detection time by 1/4-1/3, the bboxes are still the same, but we skip the last landmark fine-tune stage( mtcnn_v1 ). 
 
---- update 20161207 ---
 
 add function `extract_face_chips`, examples:
 
