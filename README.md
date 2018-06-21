@@ -26,7 +26,8 @@ This is a desktop programe for finding and marking the faces required in videos.
 ## Using
 
 run:
-  --python main.py-
+
+  python main.py
   
 ## README_MTCNN_face_detection_and_alignment
 
@@ -40,17 +41,6 @@ run:
 
 [中文blog](https://pangyupo.github.io/2016/10/22/mxnet-mtcnn/)
 
-## Requirement	  
-
-- opencv 
-
-  ​	I use cv2 for image io and resize(much faster than skimage), the input image's channel is acutally BGR
-
-- mxnet 
-
-  ​	**please update to the newest version, we need 'full' mode in Pooling operation**
-
-Only tested on Linux and Mac
 
 ## Test
 
@@ -78,10 +68,6 @@ see `mtcnn_detector.py` for the details about the parameters. this function use 
 
 ![big4](http://7xsc78.com1.z0.glb.clouddn.com/face_mtcnn.png)
 
-## License
-
-MIT LICENSE
-
 ## Reference
 
 K. Zhang and Z. Zhang and Z. Li and Y. Qiao Joint,  Face Detection and Alignment Using Multitask Cascaded Convolutional Networks, IEEE Signal Processing Letters
@@ -103,20 +89,7 @@ A PyTorch Implementation of SphereFace.
 The code can be trained on CASIA-Webface and the best accuracy on LFW is **99.22%**.
 
 [SphereFace: Deep Hypersphere Embedding for Face Recognition](https://arxiv.org/abs/1704.08063)
-
-# Train
-```
-python train.py
-```
-
-# Test
-```
-# lfw.tgz to lfw.zip
-tar zxf lfw.tgz; cd lfw; zip -r ../lfw.zip *; cd ..
-
-# lfw evaluation
-python lfw_eval.py --model model/sphere20a_20171020.pth
-```
+`
 
 # Pre-trained models
 | Model name      | LFW accuracy | Training dataset |
